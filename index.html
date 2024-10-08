@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editor Live</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="code-editor-container">
+    <div class="code-editor html-ed">
+      <div class="head-editor">
+        <div class="left-head">
+          <img src="html.png" alt="" srcset="" id="css-img">
+          <span>HTML</span>
+        </div>
+        <div class="right-head">
+          <img src="copy.svg" class="copy copyhtml">
+        </div>
+      </div>
+        <textarea id="html-area" spellcheck="false"></textarea>
+    </div>
+    <div class="code-editor css-ed">
+      <div class="head-editor">
+        <div class="left-head">
+          <img src="css.png" alt="" srcset="" id="css-img">
+          <span>CSS</span>
+        </div>
+        <div class="right-head">
+          <img src="copy.svg" class="copy copycss">
+        </div>
+      </div>
+        <textarea id="css-area" spellcheck="false"></textarea>
+    </div>
+    <div class="code-editor js-ed">
+      <div class="head-editor">
+        <div class="left-head">
+          <img src="javascript.png" alt="" srcset="" id="js-img">
+          <span>JavaScript</span>
+        </div>
+        <div class="right-head">
+          <img src="copy.svg" class="copy copyjs">
+        </div>
+      </div>
+    <textarea id="js-area" spellcheck="false"></textarea>     
+    </div>
+  </div>
+  <div class="output-con">
+    <div class="output-head">
+      <span>Live Preview</span>
+      <img src="save.svg" alt="" srcset="" id="save">
+      <img src="fullscreen.svg" alt="" srcset="" id="fullScrn">
+    </div>
+    <iframe id="output-screen"></iframe>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
